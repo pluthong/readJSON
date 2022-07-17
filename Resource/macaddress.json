@@ -1,0 +1,5752 @@
+{
+  "DPCLSettings:Settings": {
+    "@xmlns:SOAP-ENV": "http://www.w3.org/2003/05/soap-envelope",
+    "@xmlns:SOAP-ENC": "http://www.w3.org/2003/05/soap-encoding",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:DPCLEmboss": "urn:dpcl:emboss:2011-06-03",
+    "@xmlns:DPCLWheel": "urn:dpcl:wheel:2011-06-03",
+    "@xmlns:DPCLMagStripe": "urn:dpcl:magstripe:2010-01-19",
+    "@xmlns:DPCLSensors": "urn:dpcl:sensors:2010-01-19",
+    "@xmlns:DPCLSettings": "urn:dpcl:settings:2010-01-19",
+    "@xmlns:DPCLUpdate": "urn:dpcl:update:2011-10-19",
+    "@xmlns:DPCLNetworkAccessList": "urn:dpcl:nal:2012-05-30",
+    "@xmlns:xop": "http://www.w3.org/2004/08/xop/include",
+    "@xmlns:xmime5": "http://www.w3.org/2005/05/xmlmime",
+    "@xmlns:DPCL": "urn:dpcl:wsdl:2010-01-19",
+    "@xmlns:DPCL2": "urn:dpcl:wsdl:2011-09-02",
+    "@SOAP-ENV:encodingStyle": "http://www.w3.org/2003/05/soap-encoding",
+    "module": {
+      "@name": "D1",
+      "subsystem": [
+        {
+          "@name": "ActivityLog",
+          "element": [
+            {
+              "@name": "ExternalLog",
+              "value": "Disabled"
+            },
+            {
+              "@name": "ExternalLogServer",
+              "value": "0.0.0.0"
+            },
+            {
+              "@name": "FilterCardActions",
+              "value": "Notice"
+            },
+            {
+              "@name": "FilterConfigChanges",
+              "value": "Notice"
+            },
+            {
+              "@name": "FilterDevelopment",
+              "value": "Critical"
+            },
+            {
+              "@name": "FilterJobStates",
+              "value": "Notice"
+            },
+            {
+              "@name": "FilterSoapMsgs",
+              "value": "Notice"
+            },
+            {
+              "@name": "FilterSource",
+              "value": "Disabled"
+            },
+            {
+              "@name": "FilterSystem",
+              "value": "Notice"
+            },
+            {
+              "@name": "InternalLog",
+              "value": "Enabled"
+            }
+          ]
+        },
+        {
+          "@name": "BarcodeReader",
+          "element": [
+            {
+              "@name": "LeadingCardEdgeToBarcodeMM",
+              "value": "2.9"
+            },
+            {
+              "@name": "SensorToLeadingCardEdgeMM",
+              "value": "37"
+            }
+          ]
+        },
+        {
+          "@name": "Behavior",
+          "element": [
+            {
+              "@name": "ActivityLogExternal",
+              "value": "Enabled"
+            },
+            {
+              "@name": "ActivityLogInternal",
+              "value": "Enabled"
+            },
+            {
+              "@name": "AutoPPS",
+              "value": "Enabled"
+            },
+            {
+              "@name": "CloudEnable",
+              "value": "Disabled"
+            },
+            {
+              "@name": "ContactAutoDetect",
+              "value": "Disabled"
+            },
+            {
+              "@name": "ContactlessATRMode",
+              "value": "Legacy"
+            },
+            {
+              "@name": "DoorCloseLockTimeout",
+              "value": "5"
+            },
+            {
+              "@name": "DPCL",
+              "value": "Enabled"
+            },
+            {
+              "@name": "DPCL2",
+              "value": "Enabled"
+            },
+            {
+              "@name": "DPCL2Secure",
+              "value": "Enabled"
+            },
+            {
+              "@name": "DPCLSecure",
+              "value": "Enabled"
+            },
+            {
+              "@name": "LegacyIFIApplicationSupport",
+              "value": "Disabled"
+            },
+            {
+              "@name": "Plugin",
+              "value": "Disabled"
+            },
+            {
+              "@name": "RejectCardLocation",
+              "value": "Automatic"
+            },
+            {
+              "@name": "Remake",
+              "value": "Disabled"
+            },
+            {
+              "@name": "RetrieveDataTimeout",
+              "value": "120"
+            },
+            {
+              "@name": "SmartcardDefaultShareMode",
+              "value": "Direct"
+            },
+            {
+              "@name": "SmartcardForceProtocol",
+              "value": "Disabled"
+            },
+            {
+              "@name": "SmartcardPostConnectDelay",
+              "value": "400"
+            },
+            {
+              "@name": "SmartcardSwitchModeDelay",
+              "value": "3000"
+            },
+            {
+              "@name": "UnlockModHopperPWM",
+              "value": "55"
+            },
+            {
+              "@name": "UnlockPWM",
+              "value": "35"
+            },
+            {
+              "@name": "UnlockTimeout",
+              "value": "30"
+            },
+            {
+              "@name": "WebServerSecure",
+              "value": "Enabled"
+            }
+          ]
+        },
+        {
+          "@name": "CardStock",
+          "element": [
+            {
+              "@name": "CardStockDisplayed",
+              "value": "CardStock1"
+            },
+            {
+              "@name": "ColorProfile[0]",
+              "value": "PVC"
+            },
+            {
+              "@name": "ColorProfile[1]",
+              "value": "PETG"
+            },
+            {
+              "@name": "ColorProfile[2]",
+              "value": "Composite"
+            },
+            {
+              "@name": "ColorProfile[3]",
+              "value": "PC"
+            },
+            {
+              "@name": "ColorProfile[4]",
+              "value": "PVC"
+            },
+            {
+              "@name": "ColorProfile[5]",
+              "value": "PVC"
+            },
+            {
+              "@name": "ColorProfile[6]",
+              "value": "PVC"
+            },
+            {
+              "@name": "ColorProfile[7]",
+              "value": "PVC"
+            },
+            {
+              "@name": "ColorProfile[8]",
+              "value": "PVC"
+            },
+            {
+              "@name": "ColorProfile[9]",
+              "value": "PVC"
+            },
+            {
+              "@name": "DebowDistance[0]",
+              "value": "37"
+            },
+            {
+              "@name": "DebowDistance[1]",
+              "value": "37"
+            },
+            {
+              "@name": "DebowDistance[2]",
+              "value": "37"
+            },
+            {
+              "@name": "DebowDistance[3]",
+              "value": "37"
+            },
+            {
+              "@name": "DebowDistance[4]",
+              "value": "37"
+            },
+            {
+              "@name": "DebowDistance[5]",
+              "value": "37"
+            },
+            {
+              "@name": "DebowDistance[6]",
+              "value": "37"
+            },
+            {
+              "@name": "DebowDistance[7]",
+              "value": "37"
+            },
+            {
+              "@name": "DebowDistance[8]",
+              "value": "37"
+            },
+            {
+              "@name": "DebowDistance[9]",
+              "value": "37"
+            },
+            {
+              "@name": "DebowDwell[0]",
+              "value": "1000"
+            },
+            {
+              "@name": "DebowDwell[1]",
+              "value": "1000"
+            },
+            {
+              "@name": "DebowDwell[2]",
+              "value": "1000"
+            },
+            {
+              "@name": "DebowDwell[3]",
+              "value": "1000"
+            },
+            {
+              "@name": "DebowDwell[4]",
+              "value": "1000"
+            },
+            {
+              "@name": "DebowDwell[5]",
+              "value": "1000"
+            },
+            {
+              "@name": "DebowDwell[6]",
+              "value": "1000"
+            },
+            {
+              "@name": "DebowDwell[7]",
+              "value": "1000"
+            },
+            {
+              "@name": "DebowDwell[8]",
+              "value": "1000"
+            },
+            {
+              "@name": "DebowDwell[9]",
+              "value": "1000"
+            },
+            {
+              "@name": "DirectPeelLaminationSpeed[0]",
+              "value": "15"
+            },
+            {
+              "@name": "DirectPeelLaminationSpeed[1]",
+              "value": "15"
+            },
+            {
+              "@name": "DirectPeelLaminationSpeed[2]",
+              "value": "15"
+            },
+            {
+              "@name": "DirectPeelLaminationSpeed[3]",
+              "value": "15"
+            },
+            {
+              "@name": "DirectPeelLaminationSpeed[4]",
+              "value": "15"
+            },
+            {
+              "@name": "DirectPeelLaminationSpeed[5]",
+              "value": "15"
+            },
+            {
+              "@name": "DirectPeelLaminationSpeed[6]",
+              "value": "15"
+            },
+            {
+              "@name": "DirectPeelLaminationSpeed[7]",
+              "value": "15"
+            },
+            {
+              "@name": "DirectPeelLaminationSpeed[8]",
+              "value": "15"
+            },
+            {
+              "@name": "DirectPeelLaminationSpeed[9]",
+              "value": "15"
+            },
+            {
+              "@name": "ExceptionCardStockLoaded",
+              "value": "CardStock1"
+            },
+            {
+              "@name": "Hopper1CardStockLoaded",
+              "value": "CardStock1"
+            },
+            {
+              "@name": "ImpressDepthOffset[0]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDepthOffset[1]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDepthOffset[2]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDepthOffset[3]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDepthOffset[4]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDepthOffset[5]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDepthOffset[6]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDepthOffset[7]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDepthOffset[8]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDepthOffset[9]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDwellTimeOffset[0]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDwellTimeOffset[1]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDwellTimeOffset[2]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDwellTimeOffset[3]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDwellTimeOffset[4]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDwellTimeOffset[5]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDwellTimeOffset[6]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDwellTimeOffset[7]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDwellTimeOffset[8]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressDwellTimeOffset[9]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressTemperatureOffset[0]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressTemperatureOffset[1]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressTemperatureOffset[2]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressTemperatureOffset[3]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressTemperatureOffset[4]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressTemperatureOffset[5]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressTemperatureOffset[6]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressTemperatureOffset[7]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressTemperatureOffset[8]",
+              "value": "0"
+            },
+            {
+              "@name": "ImpressTemperatureOffset[9]",
+              "value": "0"
+            },
+            {
+              "@name": "MediaName[0]",
+              "value": "CardStock1"
+            },
+            {
+              "@name": "MediaName[1]",
+              "value": "CardStock2"
+            },
+            {
+              "@name": "MediaName[2]",
+              "value": "CardStock3"
+            },
+            {
+              "@name": "MediaName[3]",
+              "value": "CardStock4"
+            },
+            {
+              "@name": "MediaName[4]",
+              "value": "CardStock5"
+            },
+            {
+              "@name": "MediaName[5]",
+              "value": "CardStock6"
+            },
+            {
+              "@name": "MediaName[6]",
+              "value": "CardStock7"
+            },
+            {
+              "@name": "MediaName[7]",
+              "value": "CardStock8"
+            },
+            {
+              "@name": "MediaName[8]",
+              "value": "CardStock9"
+            },
+            {
+              "@name": "MediaName[9]",
+              "value": "CardStock10"
+            },
+            {
+              "@name": "RetransferCoolTime[0]",
+              "value": "0"
+            },
+            {
+              "@name": "RetransferCoolTime[1]",
+              "value": "0"
+            },
+            {
+              "@name": "RetransferCoolTime[2]",
+              "value": "0"
+            },
+            {
+              "@name": "RetransferCoolTime[3]",
+              "value": "0"
+            },
+            {
+              "@name": "RetransferCoolTime[4]",
+              "value": "0"
+            },
+            {
+              "@name": "RetransferCoolTime[5]",
+              "value": "0"
+            },
+            {
+              "@name": "RetransferCoolTime[6]",
+              "value": "0"
+            },
+            {
+              "@name": "RetransferCoolTime[7]",
+              "value": "0"
+            },
+            {
+              "@name": "RetransferCoolTime[8]",
+              "value": "0"
+            },
+            {
+              "@name": "RetransferCoolTime[9]",
+              "value": "0"
+            },
+            {
+              "@name": "RetransferLaminationSpeed[0]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeed[1]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeed[2]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeed[3]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeed[4]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeed[5]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeed[6]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeed[7]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeed[8]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeed[9]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2[0]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2[1]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2[2]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2[3]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2[4]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2[5]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2[6]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2[7]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2[8]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2[9]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2Side2[0]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2Side2[1]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2Side2[2]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2Side2[3]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2Side2[4]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2Side2[5]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2Side2[6]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2Side2[7]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2Side2[8]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedLayer2Side2[9]",
+              "value": "15"
+            },
+            {
+              "@name": "RetransferLaminationSpeedSide2[0]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeedSide2[1]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeedSide2[2]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeedSide2[3]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeedSide2[4]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeedSide2[5]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeedSide2[6]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeedSide2[7]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeedSide2[8]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferLaminationSpeedSide2[9]",
+              "value": "10"
+            },
+            {
+              "@name": "RetransferRollerTemp[0]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTemp[1]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTemp[2]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTemp[3]",
+              "value": "165"
+            },
+            {
+              "@name": "RetransferRollerTemp[4]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTemp[5]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTemp[6]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTemp[7]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTemp[8]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTemp[9]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTempSide2[0]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTempSide2[1]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTempSide2[2]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTempSide2[3]",
+              "value": "165"
+            },
+            {
+              "@name": "RetransferRollerTempSide2[4]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTempSide2[5]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTempSide2[6]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTempSide2[7]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTempSide2[8]",
+              "value": "155"
+            },
+            {
+              "@name": "RetransferRollerTempSide2[9]",
+              "value": "155"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeed[0]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeed[1]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeed[2]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeed[3]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeed[4]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeed[5]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeed[6]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeed[7]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeed[8]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeed[9]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2[0]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2[1]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2[2]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2[3]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2[4]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2[5]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2[6]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2[7]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2[8]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2[9]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2Side2[0]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2Side2[1]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2Side2[2]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2Side2[3]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2Side2[4]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2Side2[5]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2Side2[6]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2Side2[7]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2Side2[8]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedLayer2Side2[9]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedSide2[0]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedSide2[1]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedSide2[2]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedSide2[3]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedSide2[4]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedSide2[5]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedSide2[6]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedSide2[7]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedSide2[8]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferLaminationSpeedSide2[9]",
+              "value": "10"
+            },
+            {
+              "@name": "V2RetransferRollerTemp[0]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTemp[1]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTemp[2]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTemp[3]",
+              "value": "185"
+            },
+            {
+              "@name": "V2RetransferRollerTemp[4]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTemp[5]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTemp[6]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTemp[7]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTemp[8]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTemp[9]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTempSide2[0]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTempSide2[1]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTempSide2[2]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTempSide2[3]",
+              "value": "185"
+            },
+            {
+              "@name": "V2RetransferRollerTempSide2[4]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTempSide2[5]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTempSide2[6]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTempSide2[7]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTempSide2[8]",
+              "value": "175"
+            },
+            {
+              "@name": "V2RetransferRollerTempSide2[9]",
+              "value": "175"
+            }
+          ]
+        },
+        {
+          "@name": "ColorSensor",
+          "element": [
+            {
+              "@name": "BlackPanelBlueResponseMaximum",
+              "value": "682"
+            },
+            {
+              "@name": "BlackPanelBlueResponseMinimum",
+              "value": "2"
+            },
+            {
+              "@name": "BlackPanelGreenResponseMaximum",
+              "value": "690"
+            },
+            {
+              "@name": "BlackPanelGreenResponseMinimum",
+              "value": "1"
+            },
+            {
+              "@name": "BlackPanelRedResponseMaximum",
+              "value": "732"
+            },
+            {
+              "@name": "BlackPanelRedResponseMinimum",
+              "value": "32"
+            },
+            {
+              "@name": "ClearPanelBlueResponseMaximum",
+              "value": "2644"
+            },
+            {
+              "@name": "ClearPanelBlueResponseMinimum",
+              "value": "1694"
+            },
+            {
+              "@name": "ClearPanelGreenResponseMaximum",
+              "value": "2631"
+            },
+            {
+              "@name": "ClearPanelGreenResponseMinimum",
+              "value": "1681"
+            },
+            {
+              "@name": "ClearPanelRedResponseMaximum",
+              "value": "2644"
+            },
+            {
+              "@name": "ClearPanelRedResponseMinimum",
+              "value": "1694"
+            },
+            {
+              "@name": "ColorSensorBlueScaleFactor",
+              "value": "1.29084"
+            },
+            {
+              "@name": "ColorSensorColorChangeThreshold",
+              "value": "120"
+            },
+            {
+              "@name": "ColorSensorGreenScaleFactor",
+              "value": "1.24108"
+            },
+            {
+              "@name": "ColorSensorRange",
+              "value": "700"
+            },
+            {
+              "@name": "ColorSensorRangeClear",
+              "value": "950"
+            },
+            {
+              "@name": "ColorSensorRedScaleFactor",
+              "value": "1"
+            },
+            {
+              "@name": "CyanPanelBlueResponseMaximum",
+              "value": "1655"
+            },
+            {
+              "@name": "CyanPanelBlueResponseMinimum",
+              "value": "955"
+            },
+            {
+              "@name": "CyanPanelGreenResponseMaximum",
+              "value": "1352"
+            },
+            {
+              "@name": "CyanPanelGreenResponseMinimum",
+              "value": "652"
+            },
+            {
+              "@name": "CyanPanelRedResponseMaximum",
+              "value": "748"
+            },
+            {
+              "@name": "CyanPanelRedResponseMinimum",
+              "value": "48"
+            },
+            {
+              "@name": "MagentaPanelBlueResponseMaximum",
+              "value": "1202"
+            },
+            {
+              "@name": "MagentaPanelBlueResponseMinimum",
+              "value": "502"
+            },
+            {
+              "@name": "MagentaPanelGreenResponseMaximum",
+              "value": "884"
+            },
+            {
+              "@name": "MagentaPanelGreenResponseMinimum",
+              "value": "184"
+            },
+            {
+              "@name": "MagentaPanelRedResponseMaximum",
+              "value": "1833"
+            },
+            {
+              "@name": "MagentaPanelRedResponseMinimum",
+              "value": "1133"
+            },
+            {
+              "@name": "RibbonPanelBlackCalibrated",
+              "value": "True"
+            },
+            {
+              "@name": "RibbonPanelClearCalibrated",
+              "value": "True"
+            },
+            {
+              "@name": "RibbonPanelCMYCalibrated",
+              "value": "True"
+            },
+            {
+              "@name": "RibbonPanelSpotCalibrated",
+              "value": "False"
+            },
+            {
+              "@name": "SpotPanelBlueResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "SpotPanelBlueResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "SpotPanelGreenResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "SpotPanelGreenResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "SpotPanelRedResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "SpotPanelRedResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2BlackPanelBlueResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2BlackPanelBlueResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2BlackPanelGreenResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2BlackPanelGreenResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2BlackPanelRedResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2BlackPanelRedResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2ClearPanelBlueResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2ClearPanelBlueResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2ClearPanelGreenResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2ClearPanelGreenResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2ClearPanelRedResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2ClearPanelRedResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2ColorSensorColorChangeThreshold",
+              "value": "75"
+            },
+            {
+              "@name": "V2CyanPanelBlueResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2CyanPanelBlueResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2CyanPanelGreenResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2CyanPanelGreenResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2CyanPanelRedResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2CyanPanelRedResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2MagentaPanelBlueResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2MagentaPanelBlueResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2MagentaPanelGreenResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2MagentaPanelGreenResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2MagentaPanelRedResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2MagentaPanelRedResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2RibbonPanelBlackCalibrated",
+              "value": "False"
+            },
+            {
+              "@name": "V2RibbonPanelClearCalibrated",
+              "value": "False"
+            },
+            {
+              "@name": "V2RibbonPanelCMYCalibrated",
+              "value": "False"
+            },
+            {
+              "@name": "V2YellowPanelBlueResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2YellowPanelBlueResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2YellowPanelGreenResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2YellowPanelGreenResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "V2YellowPanelRedResponseMaximum",
+              "value": "0"
+            },
+            {
+              "@name": "V2YellowPanelRedResponseMinimum",
+              "value": "0"
+            },
+            {
+              "@name": "YellowPanelBlueResponseMaximum",
+              "value": "1564"
+            },
+            {
+              "@name": "YellowPanelBlueResponseMinimum",
+              "value": "864"
+            },
+            {
+              "@name": "YellowPanelGreenResponseMaximum",
+              "value": "2163"
+            },
+            {
+              "@name": "YellowPanelGreenResponseMinimum",
+              "value": "1463"
+            },
+            {
+              "@name": "YellowPanelRedResponseMaximum",
+              "value": "2407"
+            },
+            {
+              "@name": "YellowPanelRedResponseMinimum",
+              "value": "1707"
+            }
+          ]
+        },
+        {
+          "@name": "Communication",
+          "element": [
+            {
+              "@name": "CloudMQTTBrokerURI",
+              "value": ""
+            },
+            {
+              "@name": "CloudMQTTKeepAlive",
+              "value": "60"
+            },
+            {
+              "@name": "CloudMQTTPort",
+              "value": "8883"
+            },
+            {
+              "@name": "CloudMQTTReceiveTopic",
+              "value": ""
+            },
+            {
+              "@name": "CloudMQTTSocks5Host",
+              "value": ""
+            },
+            {
+              "@name": "CloudMQTTSocks5Password",
+              "value": ""
+            },
+            {
+              "@name": "CloudMQTTSocks5Port",
+              "value": "3301"
+            },
+            {
+              "@name": "CloudMQTTSocks5Username",
+              "value": ""
+            },
+            {
+              "@name": "CloudMQTTTemporaryURI",
+              "value": ""
+            },
+            {
+              "@name": "EthAddressMethod",
+              "value": "DHCP"
+            },
+            {
+              "@name": "EthDnsAddress1",
+              "value": "0.0.0.0"
+            },
+            {
+              "@name": "EthDnsAddress2",
+              "value": "0.0.0.0"
+            },
+            {
+              "@name": "EthDnsSearchSuffix",
+              "value": ""
+            },
+            {
+              "@name": "EthGatewayAddress",
+              "value": "0.0.0.0"
+            },
+            {
+              "@name": "EthIpAddress",
+              "value": "0.0.0.0"
+            },
+            {
+              "@name": "EthMacAddress",
+              "value": "00:02:4E:26:02:DB"
+            },
+            {
+              "@name": "EthSubnetMask",
+              "value": "0.0.0.0"
+            },
+            {
+              "@name": "IPMode",
+              "value": "IPv4"
+            },
+            {
+              "@name": "IPv6DefaultGateway",
+              "value": "::"
+            },
+            {
+              "@name": "IPv6DHCPv6Select",
+              "value": "Enabled"
+            },
+            {
+              "@name": "IPv6DNSPrimaryAddress",
+              "value": "::"
+            },
+            {
+              "@name": "IPv6DNSSecondaryAddress",
+              "value": "::"
+            },
+            {
+              "@name": "IPv6ManualAddress",
+              "value": "::"
+            },
+            {
+              "@name": "IPv6ManualPrefixLength",
+              "value": "64"
+            },
+            {
+              "@name": "IPv6ManualSelect",
+              "value": "Disabled"
+            },
+            {
+              "@name": "IPv6StatelessAddrSelect",
+              "value": "Enabled"
+            },
+            {
+              "@name": "MinTLSVersion",
+              "value": "TLS1_2"
+            },
+            {
+              "@name": "UsbAddressMethod",
+              "value": "DHCP"
+            },
+            {
+              "@name": "UsbDeviceMacAddress",
+              "value": "00:02:4E:27:02:DB"
+            },
+            {
+              "@name": "UsbHostMacAddress",
+              "value": "00:02:4E:28:02:DB"
+            },
+            {
+              "@name": "UsbIpAddress",
+              "value": "0.0.0.0"
+            },
+            {
+              "@name": "UsbProductId",
+              "value": "0x300"
+            },
+            {
+              "@name": "UsbSubnetMask",
+              "value": "0.0.0.0"
+            },
+            {
+              "@name": "UsbVendorId",
+              "value": "0xa27"
+            }
+          ]
+        },
+        {
+          "@name": "Customization",
+          "element": [
+            {
+              "@name": "ProductCode",
+              "value": "0x2010201"
+            },
+            {
+              "@name": "RegionalizeSuppliesCode",
+              "value": "0000000000000000000000000000000000000000000000000000000000000000"
+            },
+            {
+              "@name": "RegionCode",
+              "value": "0x1"
+            },
+            {
+              "@name": "SpecialCode",
+              "value": "0x1"
+            },
+            {
+              "@name": "SupplyCodeMask[0]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[1]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[2]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[3]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[4]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[5]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[6]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[7]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[8]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[9]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[10]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[11]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[12]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[13]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[14]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[15]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[16]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[17]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[18]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[19]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[20]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[21]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[22]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[23]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[24]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[25]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[26]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[27]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[28]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[29]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[30]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[31]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[32]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[33]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[34]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[35]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[36]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[37]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[38]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[39]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[40]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[41]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[42]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[43]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[44]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[45]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[46]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[47]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[48]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[49]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[50]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[51]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[52]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[53]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[54]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[55]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[56]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[57]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[58]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[59]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[60]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[61]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[62]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[63]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[64]",
+              "value": "0x0"
+            },
+            {
+              "@name": "SupplyCodeMask[65]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[66]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[67]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[68]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[69]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[70]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[71]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[72]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[73]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[74]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[75]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[76]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[77]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[78]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[79]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[80]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[81]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[82]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[83]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[84]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[85]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[86]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[87]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[88]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[89]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[90]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[91]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[92]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[93]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[94]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[95]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[96]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[97]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[98]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[99]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[100]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[101]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[102]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[103]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[104]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[105]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[106]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[107]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[108]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[109]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[110]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[111]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[112]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[113]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[114]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[115]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[116]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[117]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[118]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[119]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[120]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[121]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[122]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[123]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[124]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[125]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[126]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[127]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[128]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[129]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[130]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[131]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[132]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[133]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[134]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[135]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[136]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[137]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[138]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[139]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[140]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[141]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[142]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[143]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[144]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[145]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[146]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[147]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[148]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[149]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[150]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[151]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[152]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[153]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[154]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[155]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[156]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[157]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[158]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[159]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[160]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[161]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[162]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[163]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[164]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[165]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[166]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[167]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[168]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[169]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[170]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[171]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[172]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[173]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[174]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[175]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[176]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[177]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[178]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[179]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[180]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[181]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[182]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[183]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[184]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[185]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[186]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[187]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[188]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[189]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[190]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[191]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[192]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[193]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[194]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[195]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[196]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[197]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[198]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[199]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[200]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[201]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[202]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[203]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[204]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[205]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[206]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[207]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[208]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[209]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[210]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[211]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[212]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[213]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[214]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[215]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[216]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[217]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[218]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[219]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[220]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[221]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[222]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[223]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[224]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[225]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[226]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[227]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[228]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[229]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[230]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[231]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[232]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[233]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[234]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[235]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[236]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[237]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[238]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[239]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[240]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[241]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[242]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[243]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[244]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[245]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[246]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[247]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[248]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[249]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[250]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[251]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[252]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[253]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[254]",
+              "value": "0xff"
+            },
+            {
+              "@name": "SupplyCodeMask[255]",
+              "value": "0xff"
+            }
+          ]
+        },
+        {
+          "@name": "Debower",
+          "element": [
+            {
+              "@name": "DebowHomeOffset",
+              "value": "4"
+            },
+            {
+              "@name": "DebowRegOffset",
+              "value": "42.8"
+            },
+            {
+              "@name": "DebowSpeed",
+              "value": "200"
+            }
+          ]
+        },
+        {
+          "@name": "DevelopmentTest",
+          "element": [
+            {
+              "@name": "DPCLIPPortNumber",
+              "value": "9100"
+            },
+            {
+              "@name": "DPCLSecureIPPortNumber",
+              "value": "9111"
+            },
+            {
+              "@name": "DPMIPPortNumber",
+              "value": "19100"
+            },
+            {
+              "@name": "DPMSecureIPPortNumber",
+              "value": "19111"
+            },
+            {
+              "@name": "EncoderUsed",
+              "value": "True"
+            },
+            {
+              "@name": "ForceReject",
+              "value": "False"
+            },
+            {
+              "@name": "HeatedRollerMovePWM",
+              "value": "50"
+            },
+            {
+              "@name": "HeatedRollerMoveTime",
+              "value": "10"
+            },
+            {
+              "@name": "HeaterLiftStartHeaterDrop",
+              "value": "0"
+            },
+            {
+              "@name": "JitterCheckAfterReadOnly",
+              "value": "Disabled"
+            },
+            {
+              "@name": "RfidRegCwConductance",
+              "value": "63"
+            },
+            {
+              "@name": "RfidRegModConductance",
+              "value": "5"
+            },
+            {
+              "@name": "RfidRegRxControl1",
+              "value": "137"
+            },
+            {
+              "@name": "RfidUseCustomRegs",
+              "value": "Enabled"
+            },
+            {
+              "@name": "StripeWriteForward",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TagLotCode",
+              "value": "123123123"
+            },
+            {
+              "@name": "TagMfgCode",
+              "value": "0"
+            },
+            {
+              "@name": "TagPartNumber",
+              "value": "553854104"
+            },
+            {
+              "@name": "TagProductCode",
+              "value": "0x0"
+            },
+            {
+              "@name": "TagRegionCode",
+              "value": "0x0"
+            },
+            {
+              "@name": "TagRemainLength",
+              "value": "257500"
+            },
+            {
+              "@name": "TagSerialNumber",
+              "value": "5252525252525252"
+            },
+            {
+              "@name": "TagSimulate",
+              "value": "Disabled"
+            },
+            {
+              "@name": "TagSpecialCode",
+              "value": "0"
+            },
+            {
+              "@name": "TagSupplyCode",
+              "value": "16842753"
+            },
+            {
+              "@name": "TagSupplyLength",
+              "value": "257500"
+            },
+            {
+              "@name": "TPHAmbientTempMixPercent",
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "@name": "DiameterMeasure",
+          "element": [
+            {
+              "@name": "AllowedMeasurementDifference",
+              "value": "10"
+            },
+            {
+              "@name": "EffectiveCoreDiameterFilmSupply",
+              "value": "35.9"
+            },
+            {
+              "@name": "EffectiveCoreDiameterFilmTakeup",
+              "value": "36.8"
+            },
+            {
+              "@name": "EffectiveCoreDiameterRibbonSupply",
+              "value": "36"
+            },
+            {
+              "@name": "EffectiveCoreDiameterRibbonTakeup",
+              "value": "36.7"
+            },
+            {
+              "@name": "EffectiveThicknessFilmSupply",
+              "value": "0.017"
+            },
+            {
+              "@name": "EffectiveThicknessFilmTakeup",
+              "value": "0.018"
+            },
+            {
+              "@name": "EffectiveThicknessRibbonSupply",
+              "value": "0.0057"
+            },
+            {
+              "@name": "EffectiveThicknessRibbonTakeup",
+              "value": "0.0052"
+            },
+            {
+              "@name": "FilmSupplyDiameterMeasureTension",
+              "value": "9"
+            },
+            {
+              "@name": "FilmTakeupDiameterMeasureTension",
+              "value": "8"
+            },
+            {
+              "@name": "NumberFilmDiametersToAverage",
+              "value": "4"
+            },
+            {
+              "@name": "RibbonSupplyDiameterMeasureTension",
+              "value": "1"
+            },
+            {
+              "@name": "RibbonTakeupDiameterMeasureTension",
+              "value": "12"
+            },
+            {
+              "@name": "V2AllowedMeasurementDifference",
+              "value": "10"
+            },
+            {
+              "@name": "V2EffectiveCoreDiameterFilmSupply",
+              "value": "35.9"
+            },
+            {
+              "@name": "V2EffectiveCoreDiameterFilmTakeup",
+              "value": "36.8"
+            },
+            {
+              "@name": "V2EffectiveCoreDiameterRibbonSupply",
+              "value": "36.5"
+            },
+            {
+              "@name": "V2EffectiveCoreDiameterRibbonTakeup",
+              "value": "36.7"
+            },
+            {
+              "@name": "V2EffectiveThicknessFilmSupply",
+              "value": "0.017"
+            },
+            {
+              "@name": "V2EffectiveThicknessFilmTakeup",
+              "value": "0.016"
+            },
+            {
+              "@name": "V2EffectiveThicknessRibbonSupply",
+              "value": "0.0055"
+            },
+            {
+              "@name": "V2EffectiveThicknessRibbonTakeup",
+              "value": "0.0052"
+            }
+          ]
+        },
+        {
+          "@name": "Flipper",
+          "element": [
+            {
+              "@name": "DirectMovePark",
+              "value": "Disabled"
+            },
+            {
+              "@name": "EmbossCardOutMM",
+              "value": "15.24"
+            },
+            {
+              "@name": "FlipperEmbossAngleDeg",
+              "value": "93"
+            },
+            {
+              "@name": "FlipperFlippedAngleDeg",
+              "value": "180.36"
+            },
+            {
+              "@name": "FlipperFlippedRearHandoffAngleDeg",
+              "value": "182"
+            },
+            {
+              "@name": "FlipperFlippedVertAngle",
+              "value": "270.54"
+            },
+            {
+              "@name": "FlipperHomeOffsetDeg",
+              "value": "17"
+            },
+            {
+              "@name": "FlipperHomeVertAngle",
+              "value": "91"
+            },
+            {
+              "@name": "FlipperLaminatorAngleDeg",
+              "value": "93"
+            },
+            {
+              "@name": "FlipperParkTransSpeed",
+              "value": "200"
+            },
+            {
+              "@name": "FlipperRearHandoffAngleDeg",
+              "value": "2"
+            },
+            {
+              "@name": "FlipperRearHandoffTransSpeed",
+              "value": "177.8"
+            },
+            {
+              "@name": "FlipperRegistrationOffsetMM",
+              "value": "10"
+            },
+            {
+              "@name": "FlipperRegistrationRearOffsetMM",
+              "value": "10"
+            },
+            {
+              "@name": "FlipperRegistrationVertOffsetMM",
+              "value": "10.67"
+            },
+            {
+              "@name": "FlipperRejectAngleDeg",
+              "value": "328"
+            },
+            {
+              "@name": "FlipperRejectTransSpeed",
+              "value": "800"
+            },
+            {
+              "@name": "FlipperRotateToTransportMultiplier",
+              "value": "0.38"
+            },
+            {
+              "@name": "FlipperRotationSpeedDeg",
+              "value": "505"
+            },
+            {
+              "@name": "FlipperTransRampDownRegSpeed",
+              "value": "500"
+            },
+            {
+              "@name": "FlipperTransUseRampDown",
+              "value": "Disabled"
+            },
+            {
+              "@name": "LaminateCardOutMM",
+              "value": "15.24"
+            },
+            {
+              "@name": "RejectHopperCapacity",
+              "value": "6"
+            },
+            {
+              "@name": "TransportToFlipperRatioMultiplier",
+              "value": "1"
+            },
+            {
+              "@name": "VertTransportToFlipperRatioMultiplier",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "@name": "FrontPanel",
+          "element": [
+            {
+              "@name": "BacklightBrightness",
+              "value": "100"
+            },
+            {
+              "@name": "KeySenseLevel",
+              "value": "5"
+            },
+            {
+              "@name": "LcdConfigMenu",
+              "value": "Enabled"
+            },
+            {
+              "@name": "LedCardsPickedToCleaning",
+              "value": "500"
+            },
+            {
+              "@name": "LedPrintheadCyclesToCleaning",
+              "value": "2500"
+            },
+            {
+              "@name": "LedRibbonLow",
+              "value": "10"
+            },
+            {
+              "@name": "SpeakerEnabled",
+              "value": "Enabled"
+            }
+          ]
+        },
+        {
+          "@name": "HeatRoller",
+          "element": [
+            {
+              "@name": "FFIdle",
+              "value": "0.07"
+            },
+            {
+              "@name": "FFLam1",
+              "value": "0.58"
+            },
+            {
+              "@name": "FFLam2",
+              "value": "0.175"
+            },
+            {
+              "@name": "HeaterMinutesToLowPower",
+              "value": "5"
+            },
+            {
+              "@name": "HeaterMinutesToPowerSave",
+              "value": "15"
+            },
+            {
+              "@name": "Kd",
+              "value": "2"
+            },
+            {
+              "@name": "Ki",
+              "value": "1"
+            },
+            {
+              "@name": "Kp",
+              "value": "27"
+            },
+            {
+              "@name": "KpWarming",
+              "value": "6"
+            },
+            {
+              "@name": "LowPowerRollerTemp",
+              "value": "135"
+            },
+            {
+              "@name": "PowerSaveControl",
+              "value": "30"
+            },
+            {
+              "@name": "RetransferRollerTempCritical",
+              "value": "235"
+            },
+            {
+              "@name": "RubberRollerTempOffset",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "@name": "MagStripeCustomTrack1",
+          "element": [
+            {
+              "@name": "CustomCharHigh1",
+              "value": "95"
+            },
+            {
+              "@name": "CustomCharLength1",
+              "value": "6"
+            },
+            {
+              "@name": "CustomCharLow1",
+              "value": "32"
+            },
+            {
+              "@name": "CustomCharMask1",
+              "value": "32"
+            },
+            {
+              "@name": "CustomCharMax1",
+              "value": "76"
+            },
+            {
+              "@name": "CustomDensity1",
+              "value": "210"
+            },
+            {
+              "@name": "CustomEndSentinel1",
+              "value": "63"
+            },
+            {
+              "@name": "CustomLrc1",
+              "value": "EVEN"
+            },
+            {
+              "@name": "CustomParity1",
+              "value": "ODD"
+            },
+            {
+              "@name": "CustomSdsNulls1",
+              "value": "0"
+            },
+            {
+              "@name": "CustomSdsRecords1",
+              "value": "1"
+            },
+            {
+              "@name": "CustomSdsSs1",
+              "value": "1"
+            },
+            {
+              "@name": "CustomStartSentinel1",
+              "value": "37"
+            }
+          ]
+        },
+        {
+          "@name": "MagStripeCustomTrack2",
+          "element": [
+            {
+              "@name": "CustomCharHigh2",
+              "value": "63"
+            },
+            {
+              "@name": "CustomCharLength2",
+              "value": "4"
+            },
+            {
+              "@name": "CustomCharLow2",
+              "value": "48"
+            },
+            {
+              "@name": "CustomCharMask2",
+              "value": "48"
+            },
+            {
+              "@name": "CustomCharMax2",
+              "value": "37"
+            },
+            {
+              "@name": "CustomDensity2",
+              "value": "75"
+            },
+            {
+              "@name": "CustomEndSentinel2",
+              "value": "63"
+            },
+            {
+              "@name": "CustomLrc2",
+              "value": "EVEN"
+            },
+            {
+              "@name": "CustomParity2",
+              "value": "ODD"
+            },
+            {
+              "@name": "CustomSdsNulls2",
+              "value": "0"
+            },
+            {
+              "@name": "CustomSdsRecords2",
+              "value": "1"
+            },
+            {
+              "@name": "CustomSdsSs2",
+              "value": "1"
+            },
+            {
+              "@name": "CustomStartSentinel2",
+              "value": "59"
+            }
+          ]
+        },
+        {
+          "@name": "MagStripeCustomTrack3",
+          "element": [
+            {
+              "@name": "CustomCharHigh3",
+              "value": "63"
+            },
+            {
+              "@name": "CustomCharLength3",
+              "value": "4"
+            },
+            {
+              "@name": "CustomCharLow3",
+              "value": "48"
+            },
+            {
+              "@name": "CustomCharMask3",
+              "value": "48"
+            },
+            {
+              "@name": "CustomCharMax3",
+              "value": "104"
+            },
+            {
+              "@name": "CustomDensity3",
+              "value": "210"
+            },
+            {
+              "@name": "CustomEndSentinel3",
+              "value": "63"
+            },
+            {
+              "@name": "CustomLrc3",
+              "value": "EVEN"
+            },
+            {
+              "@name": "CustomParity3",
+              "value": "ODD"
+            },
+            {
+              "@name": "CustomSdsNulls3",
+              "value": "0"
+            },
+            {
+              "@name": "CustomSdsRecords3",
+              "value": "1"
+            },
+            {
+              "@name": "CustomSdsSs3",
+              "value": "1"
+            },
+            {
+              "@name": "CustomStartSentinel3",
+              "value": "59"
+            }
+          ]
+        },
+        {
+          "@name": "MagStripeGeneral",
+          "element": [
+            {
+              "@name": "Attempts",
+              "value": "3"
+            },
+            {
+              "@name": "AutoCoercivity",
+              "value": "Disabled"
+            },
+            {
+              "@name": "Coercivity",
+              "value": "HICO"
+            },
+            {
+              "@name": "DataFormat1",
+              "value": "IATA"
+            },
+            {
+              "@name": "DataFormat2",
+              "value": "ABA"
+            },
+            {
+              "@name": "DataFormat3",
+              "value": "TTS"
+            },
+            {
+              "@name": "NoDataDisableTrack",
+              "value": "Disabled"
+            },
+            {
+              "@name": "ReadTrack1",
+              "value": "Enabled"
+            },
+            {
+              "@name": "ReadTrack2",
+              "value": "Enabled"
+            },
+            {
+              "@name": "ReadTrack3",
+              "value": "Enabled"
+            },
+            {
+              "@name": "SSA1",
+              "value": "0"
+            },
+            {
+              "@name": "SSA2",
+              "value": "0"
+            },
+            {
+              "@name": "SSA3",
+              "value": "0"
+            },
+            {
+              "@name": "StripeDpsOffset",
+              "value": "307"
+            },
+            {
+              "@name": "StripeEncoderMultiplier",
+              "value": "1.01031"
+            },
+            {
+              "@name": "StripeReadEntryOffsetMM",
+              "value": "11.33"
+            },
+            {
+              "@name": "StripeReadEventOffsetMM",
+              "value": "97.37"
+            },
+            {
+              "@name": "StripeReadRevEntryOffsetMM",
+              "value": "0.01"
+            },
+            {
+              "@name": "StripeReadSpeedMM",
+              "value": "101.6"
+            },
+            {
+              "@name": "StripeWriteEventOffsetMM",
+              "value": "90.3"
+            },
+            {
+              "@name": "StripeWriteFwdEntryOffsetMM",
+              "value": "11.43"
+            },
+            {
+              "@name": "StripeWriteRevEntryOffsetMM",
+              "value": "7.62"
+            },
+            {
+              "@name": "StripeWriteSpeedMM",
+              "value": "72"
+            },
+            {
+              "@name": "WriteTrack1",
+              "value": "Enabled"
+            },
+            {
+              "@name": "WriteTrack2",
+              "value": "Enabled"
+            },
+            {
+              "@name": "WriteTrack3",
+              "value": "Enabled"
+            },
+            {
+              "@name": "WriteVerify",
+              "value": "Enabled"
+            }
+          ]
+        },
+        {
+          "@name": "Manufacturing",
+          "element": [
+            {
+              "@name": "MfgCapstanDistanceCorrection",
+              "value": "-0.21"
+            },
+            {
+              "@name": "MfgColorPanelPrintingOffsetBlackAdjust",
+              "value": "0"
+            },
+            {
+              "@name": "MfgColorPanelPrintingOffsetCyanAdjust",
+              "value": "0"
+            },
+            {
+              "@name": "MfgColorPanelPrintingOffsetMagentaAdjust",
+              "value": "0"
+            },
+            {
+              "@name": "MfgColorPanelPrintingOffsetYellowAdjust",
+              "value": "0"
+            },
+            {
+              "@name": "MfgRetransferImageRegOffset",
+              "value": "3.92"
+            },
+            {
+              "@name": "MfgVerticalOffset",
+              "value": "0.22"
+            },
+            {
+              "@name": "V2MfgRetransferImageRegAdjust",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "@name": "Options",
+          "element": [
+            {
+              "@name": "ActivityLogExternal",
+              "value": "Enabled"
+            },
+            {
+              "@name": "ActivityLogInternal",
+              "value": "Enabled"
+            },
+            {
+              "@name": "CardPresent",
+              "value": "Enabled"
+            },
+            {
+              "@name": "CardStocksAndMultiHopper",
+              "value": "Enabled"
+            },
+            {
+              "@name": "CMYFilm600x600",
+              "value": "Enabled"
+            },
+            {
+              "@name": "CMYFilmRetran300x300",
+              "value": "Disabled"
+            },
+            {
+              "@name": "CMYKFilm600x600",
+              "value": "Enabled"
+            },
+            {
+              "@name": "CMYKFilmRetran300x300",
+              "value": "Disabled"
+            },
+            {
+              "@name": "DPCL",
+              "value": "Enabled"
+            },
+            {
+              "@name": "DPCL2",
+              "value": "Enabled"
+            },
+            {
+              "@name": "DPCL2Secure",
+              "value": "Enabled"
+            },
+            {
+              "@name": "DPCLSecure",
+              "value": "Enabled"
+            },
+            {
+              "@name": "DriverEnable",
+              "value": "Disabled"
+            },
+            {
+              "@name": "DTCandRedwoodL1Station",
+              "value": "Enabled"
+            },
+            {
+              "@name": "EmbossModule",
+              "value": "Enabled"
+            },
+            {
+              "@name": "EmbossModuleAbsent",
+              "value": "Enabled"
+            },
+            {
+              "@name": "EmbossModuleEmboss",
+              "value": "Enabled"
+            },
+            {
+              "@name": "EmbossModuleExpected",
+              "value": "Disabled"
+            },
+            {
+              "@name": "EmbossModuleIndent",
+              "value": "Enabled"
+            },
+            {
+              "@name": "EmbossModuleKioskExtReader",
+              "value": "Disabled"
+            },
+            {
+              "@name": "EmbossModuleKioskRollersPark",
+              "value": "Disabled"
+            },
+            {
+              "@name": "EmbossModuleKioskSupport",
+              "value": "Disabled"
+            },
+            {
+              "@name": "EmbossModuleOutputHopper",
+              "value": "Enabled"
+            },
+            {
+              "@name": "EmbossModuleTop",
+              "value": "Enabled"
+            },
+            {
+              "@name": "Ethernet",
+              "value": "Enabled"
+            },
+            {
+              "@name": "FactoryMode",
+              "value": "Disabled"
+            },
+            {
+              "@name": "FluorescentFilm600x600",
+              "value": "Enabled"
+            },
+            {
+              "@name": "FluorescentFilmRetran300x300",
+              "value": "Disabled"
+            },
+            {
+              "@name": "HeatSealFilm600x600",
+              "value": "Enabled"
+            },
+            {
+              "@name": "HeatSealFilmRetran300x300",
+              "value": "Disabled"
+            },
+            {
+              "@name": "Impresser",
+              "value": "Enabled"
+            },
+            {
+              "@name": "InhibitFilm600x600",
+              "value": "Enabled"
+            },
+            {
+              "@name": "InhibitFilmRetran300x300",
+              "value": "Disabled"
+            },
+            {
+              "@name": "IPv6Support",
+              "value": "Enabled"
+            },
+            {
+              "@name": "LaminatorModuleExpected",
+              "value": "Disabled"
+            },
+            {
+              "@name": "LaserData",
+              "value": "Enabled"
+            },
+            {
+              "@name": "LaserLocks",
+              "value": "Enabled"
+            },
+            {
+              "@name": "LaserModule25",
+              "value": "Enabled"
+            },
+            {
+              "@name": "LaserVisionRegistration",
+              "value": "Enabled"
+            },
+            {
+              "@name": "LCDColor",
+              "value": "Enabled"
+            },
+            {
+              "@name": "LCDPanel",
+              "value": "Enabled"
+            },
+            {
+              "@name": "MagstripeAamvaEncoding",
+              "value": "Disabled"
+            },
+            {
+              "@name": "MagStripeJitterISOOption",
+              "value": "Disabled"
+            },
+            {
+              "@name": "MagStripeJitterJISOption",
+              "value": "Disabled"
+            },
+            {
+              "@name": "MagstripeSaflokEncoding",
+              "value": "Disabled"
+            },
+            {
+              "@name": "MagstripeTimeloxEncoding",
+              "value": "Disabled"
+            },
+            {
+              "@name": "MagstripeVingEncoding",
+              "value": "Disabled"
+            },
+            {
+              "@name": "ManualDuplex",
+              "value": "Enabled"
+            },
+            {
+              "@name": "MHSimulator",
+              "value": "Enabled"
+            },
+            {
+              "@name": "MonochromeFilm600x600",
+              "value": "Enabled"
+            },
+            {
+              "@name": "MonochromeFilmRetran300x300",
+              "value": "Disabled"
+            },
+            {
+              "@name": "MS2JitterJISOption",
+              "value": "Disabled"
+            },
+            {
+              "@name": "PeeloffFilm600x600",
+              "value": "Disabled"
+            },
+            {
+              "@name": "PeeloffFilmRetran300x300",
+              "value": "Disabled"
+            },
+            {
+              "@name": "Plugin",
+              "value": "Enabled"
+            },
+            {
+              "@name": "PrimerFilm600x600",
+              "value": "Enabled"
+            },
+            {
+              "@name": "PrimerFilmRetran300x300",
+              "value": "Disabled"
+            },
+            {
+              "@name": "RedwoodBarCodeReader",
+              "value": "Enabled"
+            },
+            {
+              "@name": "RedwoodDebowerMultipleInputHoppers",
+              "value": "Enabled"
+            },
+            {
+              "@name": "RedwoodImpresser",
+              "value": "Enabled"
+            },
+            {
+              "@name": "RedwoodImpresserMultipleInputHoppers",
+              "value": "Enabled"
+            },
+            {
+              "@name": "RedwoodL1Station",
+              "value": "Enabled"
+            },
+            {
+              "@name": "RedwoodL1StationAndTriglavVertTransport",
+              "value": "Enabled"
+            },
+            {
+              "@name": "RedwoodL2Board",
+              "value": "Enabled"
+            },
+            {
+              "@name": "RedwoodL2Station",
+              "value": "Enabled"
+            },
+            {
+              "@name": "RedwoodLocks",
+              "value": "Enabled"
+            },
+            {
+              "@name": "Remake",
+              "value": "Enabled"
+            },
+            {
+              "@name": "RetransferSmartCardContactless",
+              "value": "Enabled"
+            },
+            {
+              "@name": "RFID",
+              "value": "Enabled"
+            },
+            {
+              "@name": "SBCController",
+              "value": "Enabled"
+            },
+            {
+              "@name": "SecureColorPanels",
+              "value": "Disabled"
+            },
+            {
+              "@name": "Simulator",
+              "value": "Disabled"
+            },
+            {
+              "@name": "SmartCardTunnel",
+              "value": "Enabled"
+            },
+            {
+              "@name": "SpotColorFilm600x600",
+              "value": "Enabled"
+            },
+            {
+              "@name": "SpotColorFilmRetran300x300",
+              "value": "Disabled"
+            },
+            {
+              "@name": "TriglavAndRedwoodImpresser",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavAndRedwoodL1Station",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavAndRedwoodL2Board",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavAutoDuplex",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavBarcode",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavDebower",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavICDualiDeAbcm",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavICHIDOmnikey",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavInputHopper",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavLocks",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavMagstripeISO",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavMagstripeJIS",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavModularInputHopper",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavMultiHopper",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavMultiHopper3",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavMultiHopper6",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavOutputHopper",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavPrintHead",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavPrintHeadExpected",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavRejectHopper",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavSecondaryMagstripeJIS",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavSingleFeed",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavSmartCard",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavSmartCardContactSwitch",
+              "value": "Enabled"
+            },
+            {
+              "@name": "TriglavVertTransport",
+              "value": "Enabled"
+            },
+            {
+              "@name": "USB",
+              "value": "Enabled"
+            },
+            {
+              "@name": "UserInterfaceModule",
+              "value": "Enabled"
+            },
+            {
+              "@name": "WebServerSecure",
+              "value": "Enabled"
+            },
+            {
+              "@name": "Wifi",
+              "value": "Enabled"
+            },
+            {
+              "@name": "WifiAccessPoint",
+              "value": "Enabled"
+            }
+          ]
+        },
+        {
+          "@name": "Pick",
+          "element": [
+            {
+              "@name": "EnableFilmAndCardMismatchWarnings",
+              "value": "Enabled"
+            },
+            {
+              "@name": "ForwardJogPwm",
+              "value": "50"
+            },
+            {
+              "@name": "ForwardJogTime",
+              "value": "250"
+            },
+            {
+              "@name": "ForwardRecoverPwm",
+              "value": "40"
+            },
+            {
+              "@name": "ForwardRecoverTime",
+              "value": "250"
+            },
+            {
+              "@name": "MotorPWM",
+              "value": "80"
+            },
+            {
+              "@name": "PickAutoTimeout",
+              "value": "4000"
+            },
+            {
+              "@name": "PickCardOffset",
+              "value": "6"
+            },
+            {
+              "@name": "PickReversePwm",
+              "value": "50"
+            },
+            {
+              "@name": "PickReverseTime",
+              "value": "750"
+            },
+            {
+              "@name": "PickTries",
+              "value": "4"
+            },
+            {
+              "@name": "ReverseJogPwm",
+              "value": "50"
+            },
+            {
+              "@name": "ReverseJogTime",
+              "value": "250"
+            },
+            {
+              "@name": "ReverseRecoverPwm",
+              "value": "80"
+            },
+            {
+              "@name": "ReverseRecoverTime",
+              "value": "150"
+            },
+            {
+              "@name": "SuppliesRequired",
+              "value": "Enabled"
+            }
+          ]
+        },
+        {
+          "@name": "Print",
+          "element": [
+            {
+              "@name": "BandingMitigation",
+              "value": "Tier1And2Enabled"
+            },
+            {
+              "@name": "CMSEmulationVersion",
+              "value": "R4_7"
+            },
+            {
+              "@name": "CMSFactoryCalibrated",
+              "value": "False"
+            },
+            {
+              "@name": "CMSMode",
+              "value": "Current"
+            },
+            {
+              "@name": "ColorMode",
+              "value": "TrueColor_ICC"
+            },
+            {
+              "@name": "ColorPanelPrintingOffset",
+              "value": "2"
+            },
+            {
+              "@name": "DiameterMeasureStretchCompensation",
+              "value": "2"
+            },
+            {
+              "@name": "DustFilmUnwindDistancePanels",
+              "value": "4"
+            },
+            {
+              "@name": "DustFilmUnwindSpeed",
+              "value": "40"
+            },
+            {
+              "@name": "DustFilmUnwindTension",
+              "value": "2"
+            },
+            {
+              "@name": "DustFilmWindDistancePanels",
+              "value": "4"
+            },
+            {
+              "@name": "DustRibbonUnwindDistancePanels",
+              "value": "2"
+            },
+            {
+              "@name": "DustRibbonWindSpeed",
+              "value": "88.9"
+            },
+            {
+              "@name": "DustRibbonWindTension",
+              "value": "0.5"
+            },
+            {
+              "@name": "EDCBlackPreheatColumnDecay",
+              "value": "0.001105"
+            },
+            {
+              "@name": "EDCBlackPreheatStartRatio",
+              "value": "0.141"
+            },
+            {
+              "@name": "EDCCyanPreheatColumnDecay",
+              "value": "0.001105"
+            },
+            {
+              "@name": "EDCCyanPreheatStartRatio",
+              "value": "0.141"
+            },
+            {
+              "@name": "EDCFluorescentPreheatColumnDecay",
+              "value": "0.001105"
+            },
+            {
+              "@name": "EDCFluorescentPreheatStartRatio",
+              "value": "0"
+            },
+            {
+              "@name": "EDCInhibitPreheatColumnDecay",
+              "value": "0.001105"
+            },
+            {
+              "@name": "EDCInhibitPreheatStartRatio",
+              "value": "0"
+            },
+            {
+              "@name": "EDCLabelCard",
+              "value": "Disabled"
+            },
+            {
+              "@name": "EDCLabelCard2",
+              "value": "Disabled"
+            },
+            {
+              "@name": "EDCLabelGuide",
+              "value": "Disabled"
+            },
+            {
+              "@name": "EDCLUTBlack",
+              "value": "257"
+            },
+            {
+              "@name": "EDCLUTCyan",
+              "value": "245"
+            },
+            {
+              "@name": "EDCLUTFluorescent",
+              "value": "245"
+            },
+            {
+              "@name": "EDCLUTInhibit",
+              "value": "230"
+            },
+            {
+              "@name": "EDCLUTMagenta",
+              "value": "245"
+            },
+            {
+              "@name": "EDCLUTPrimer",
+              "value": "245"
+            },
+            {
+              "@name": "EDCLUTSpotColor",
+              "value": "245"
+            },
+            {
+              "@name": "EDCLUTYellow",
+              "value": "243"
+            },
+            {
+              "@name": "EDCMagentaPreheatColumnDecay",
+              "value": "0.001105"
+            },
+            {
+              "@name": "EDCMagentaPreheatStartRatio",
+              "value": "0.141"
+            },
+            {
+              "@name": "EDCMonochromePreheatColumnDecay",
+              "value": "0.0075"
+            },
+            {
+              "@name": "EDCMonochromePreheatStartRatio",
+              "value": "0.05"
+            },
+            {
+              "@name": "EDCPrimerPreheatColumnDecay",
+              "value": "0.001105"
+            },
+            {
+              "@name": "EDCPrimerPreheatStartRatio",
+              "value": "0.141"
+            },
+            {
+              "@name": "EDCSkipLeadingWhite",
+              "value": "Disabled"
+            },
+            {
+              "@name": "EDCSpotColorPreheatColumnDecay",
+              "value": "0.001105"
+            },
+            {
+              "@name": "EDCSpotColorPreheatStartRatio",
+              "value": "0"
+            },
+            {
+              "@name": "EDCTcomp",
+              "value": "8000000"
+            },
+            {
+              "@name": "EDCTcompAdjustTenthsC",
+              "value": "210"
+            },
+            {
+              "@name": "EDCVcomp",
+              "value": "2000000"
+            },
+            {
+              "@name": "EDCYellowPreheatColumnDecay",
+              "value": "0.001105"
+            },
+            {
+              "@name": "EDCYellowPreheatStartRatio",
+              "value": "0.141"
+            },
+            {
+              "@name": "EnableWhiteBorderOnPrint",
+              "value": "Enabled"
+            },
+            {
+              "@name": "FanTempCritical",
+              "value": "83"
+            },
+            {
+              "@name": "FanTempOn",
+              "value": "45"
+            },
+            {
+              "@name": "FilmIndexSensorsPWMCalibrated",
+              "value": "True"
+            },
+            {
+              "@name": "FilmPreregisterProcess",
+              "value": "StopOnIndexMark"
+            },
+            {
+              "@name": "FilmPreregisterTime",
+              "value": "25"
+            },
+            {
+              "@name": "FilmPreregisterTimeStopOnIndexMark",
+              "value": "0"
+            },
+            {
+              "@name": "FilmPrintIndexSensorPWM",
+              "value": "130"
+            },
+            {
+              "@name": "FilmRegisterSpeed",
+              "value": "16.638"
+            },
+            {
+              "@name": "FilmRegisterSpeedCalibrated",
+              "value": "True"
+            },
+            {
+              "@name": "FilmRegisterSpeedHeaterDownRatio",
+              "value": "0.9"
+            },
+            {
+              "@name": "FilmRegisterTension",
+              "value": "4"
+            },
+            {
+              "@name": "FilmRewindSpeed",
+              "value": "175"
+            },
+            {
+              "@name": "FilmSpeedCapstanDown",
+              "value": "50.8"
+            },
+            {
+              "@name": "FilmSupplyPrintTension",
+              "value": "9"
+            },
+            {
+              "@name": "FilmSupplyPrintTensionBanding",
+              "value": "9"
+            },
+            {
+              "@name": "FilmSupplyRegisterTension",
+              "value": "3.6743"
+            },
+            {
+              "@name": "FilmSupplyRewindStopDelay",
+              "value": "50"
+            },
+            {
+              "@name": "FilmSupplyTensionReleaseDelay",
+              "value": "250"
+            },
+            {
+              "@name": "FilmSupplyTensionReleaseDistance",
+              "value": "6"
+            },
+            {
+              "@name": "FilmSupplyTensionReleaseSpeed",
+              "value": "40"
+            },
+            {
+              "@name": "FilmTakeupPrintTension",
+              "value": "8"
+            },
+            {
+              "@name": "FilmTakeupPrintTensionBanding",
+              "value": "10"
+            },
+            {
+              "@name": "FilmTakeupRegisterTension",
+              "value": "4"
+            },
+            {
+              "@name": "HeadPowerBlack",
+              "value": "102"
+            },
+            {
+              "@name": "HeadPowerBlackObscure",
+              "value": "120"
+            },
+            {
+              "@name": "HeadPowerCyan",
+              "value": "101"
+            },
+            {
+              "@name": "HeadPowerCyanCMY",
+              "value": "126"
+            },
+            {
+              "@name": "HeadPowerFluorescent",
+              "value": "101"
+            },
+            {
+              "@name": "HeadPowerInhibit",
+              "value": "135"
+            },
+            {
+              "@name": "HeadPowerMagenta",
+              "value": "103"
+            },
+            {
+              "@name": "HeadPowerMagentaCMY",
+              "value": "126"
+            },
+            {
+              "@name": "HeadPowerMonochrome",
+              "value": "121"
+            },
+            {
+              "@name": "HeadPowerPrimer",
+              "value": "121"
+            },
+            {
+              "@name": "HeadPowerPrimerBeforeInhibitorPowerOffset",
+              "value": "0"
+            },
+            {
+              "@name": "HeadPowerSpot",
+              "value": "121"
+            },
+            {
+              "@name": "HeadPowerYellow",
+              "value": "103"
+            },
+            {
+              "@name": "HeadPowerYellowCMY",
+              "value": "126"
+            },
+            {
+              "@name": "MotorCalibrationBurnInSeconds",
+              "value": "30"
+            },
+            {
+              "@name": "MotorCalibrationBurnInSecondsCold",
+              "value": "120"
+            },
+            {
+              "@name": "MotorCalibrationHighSpeedPWM",
+              "value": "80"
+            },
+            {
+              "@name": "MotorCalibrationLowSpeedPWM",
+              "value": "50"
+            },
+            {
+              "@name": "NewRibbonRollWindupDistance",
+              "value": "150"
+            },
+            {
+              "@name": "NoLoadRPMFilmSupply",
+              "value": "2.36"
+            },
+            {
+              "@name": "NoLoadRPMFilmSupplyReverse",
+              "value": "2.36"
+            },
+            {
+              "@name": "NoLoadRPMFilmTakeup",
+              "value": "2.36"
+            },
+            {
+              "@name": "NoLoadRPMFilmTakeupReverse",
+              "value": "2.36"
+            },
+            {
+              "@name": "NoLoadRPMFilmTakeupReverseRetransfer",
+              "value": "2.36"
+            },
+            {
+              "@name": "NoLoadRPMRibbonSupply",
+              "value": "2.36"
+            },
+            {
+              "@name": "NoLoadRPMRibbonSupplyReverse",
+              "value": "2.36"
+            },
+            {
+              "@name": "NoLoadRPMRibbonTakeup",
+              "value": "2.36"
+            },
+            {
+              "@name": "NoLoadRPMRibbonTakeupReverse",
+              "value": "2.36"
+            },
+            {
+              "@name": "PreheatTotalShadeToIndex",
+              "value": "60000"
+            },
+            {
+              "@name": "PrimerExtraLinesColorValue",
+              "value": "12"
+            },
+            {
+              "@name": "PrimerHeadTempThreshold",
+              "value": "27"
+            },
+            {
+              "@name": "PrimerPanelPrintingOffset",
+              "value": "0"
+            },
+            {
+              "@name": "PrintCamDownSpeed",
+              "value": "1000"
+            },
+            {
+              "@name": "PrintCamDriveDownOffset",
+              "value": "30"
+            },
+            {
+              "@name": "PrintCamDriveUpOffset",
+              "value": "190"
+            },
+            {
+              "@name": "PrintCamEnableStartPrintingEncoderLog",
+              "value": "Disabled"
+            },
+            {
+              "@name": "PrintCamHomeOffset",
+              "value": "17"
+            },
+            {
+              "@name": "PrintCamPrintOffset",
+              "value": "17"
+            },
+            {
+              "@name": "PrintCamUpSpeed",
+              "value": "1000"
+            },
+            {
+              "@name": "PrintingMechanismVersion",
+              "value": "Gen3"
+            },
+            {
+              "@name": "PrintLinesMissedThreshold",
+              "value": "0"
+            },
+            {
+              "@name": "PrintSpeed",
+              "value": "0"
+            },
+            {
+              "@name": "PrintStripCapstanLiftOffset",
+              "value": "20"
+            },
+            {
+              "@name": "PrintStripCapstanLiftOffsetInhibitor",
+              "value": "20"
+            },
+            {
+              "@name": "PrintStripCapstanLiftOffsetPrimer",
+              "value": "20"
+            },
+            {
+              "@name": "PrintStripDistance",
+              "value": "35"
+            },
+            {
+              "@name": "PrintStripTensionChangeOffset",
+              "value": "1"
+            },
+            {
+              "@name": "RewrapRibbonUnwindDistance",
+              "value": "0"
+            },
+            {
+              "@name": "RewrapRibbonUnwindSpeed",
+              "value": "40"
+            },
+            {
+              "@name": "RewrapRibbonUnwindTension",
+              "value": "0.5"
+            },
+            {
+              "@name": "RewrapRibbonWindSpeed",
+              "value": "40"
+            },
+            {
+              "@name": "RewrapRibbonWindTension",
+              "value": "0"
+            },
+            {
+              "@name": "RibbonBlackObscureRegisterOffset",
+              "value": "2"
+            },
+            {
+              "@name": "RibbonColorSensorCalibrationTension",
+              "value": "10"
+            },
+            {
+              "@name": "RibbonLongRewindTension",
+              "value": "1"
+            },
+            {
+              "@name": "RibbonObscurationExtraDistanceReverseTension",
+              "value": "6"
+            },
+            {
+              "@name": "RibbonObscurationExtraForwardMoveDistance",
+              "value": "76.2"
+            },
+            {
+              "@name": "RibbonObscurationForwardSpeed",
+              "value": "50.8"
+            },
+            {
+              "@name": "RibbonObscurationForwardTension",
+              "value": "0.5"
+            },
+            {
+              "@name": "RibbonObscurationReverseSpeed",
+              "value": "50.8"
+            },
+            {
+              "@name": "RibbonObscurationReverseTension",
+              "value": "1"
+            },
+            {
+              "@name": "RibbonPanelPreregistrationOffset",
+              "value": "20"
+            },
+            {
+              "@name": "RibbonPanelRegistrationFilterOffset",
+              "value": "2"
+            },
+            {
+              "@name": "RibbonPanelRegistrationOffset",
+              "value": "13.5"
+            },
+            {
+              "@name": "RibbonPanelRegistrationOffsetClear",
+              "value": "20.5"
+            },
+            {
+              "@name": "RibbonPanelRegistrationOffsetClearStopOnIndexMarkDelta",
+              "value": "-9.5"
+            },
+            {
+              "@name": "RibbonPanelRegistrationOffsetStopOnIndexMarkDelta",
+              "value": "-13"
+            },
+            {
+              "@name": "RibbonRegisterSpeed",
+              "value": "50.8"
+            },
+            {
+              "@name": "RibbonRegisterTension",
+              "value": "1"
+            },
+            {
+              "@name": "RibbonRegisterTensionCyan",
+              "value": "12"
+            },
+            {
+              "@name": "RibbonSlewSpeed",
+              "value": "88.9"
+            },
+            {
+              "@name": "RibbonSlewTension",
+              "value": "1"
+            },
+            {
+              "@name": "RibbonSupplyObscurationTension",
+              "value": "1"
+            },
+            {
+              "@name": "RibbonSupplyPrintTension",
+              "value": "1"
+            },
+            {
+              "@name": "RibbonSupplyPrintTensionBanding",
+              "value": "1"
+            },
+            {
+              "@name": "RibbonSupplyPrintTensionInhibitor",
+              "value": "1"
+            },
+            {
+              "@name": "RibbonSupplyPrintTensionPrimer",
+              "value": "1"
+            },
+            {
+              "@name": "RibbonSupplyStripTension",
+              "value": "12"
+            },
+            {
+              "@name": "RibbonSupplyStripTensionBanding",
+              "value": "8"
+            },
+            {
+              "@name": "RibbonTakeupObscurationTension",
+              "value": "2"
+            },
+            {
+              "@name": "RibbonTakeupPrintTension",
+              "value": "12"
+            },
+            {
+              "@name": "RibbonTakeupPrintTensionBanding",
+              "value": "8"
+            },
+            {
+              "@name": "RibbonTakeupPrintTensionInhibitor",
+              "value": "8"
+            },
+            {
+              "@name": "RibbonTakeupPrintTensionPrimer",
+              "value": "12"
+            },
+            {
+              "@name": "RibbonTakeupStripTension",
+              "value": "12"
+            },
+            {
+              "@name": "RibbonTakeupStripTensionBanding",
+              "value": "8"
+            },
+            {
+              "@name": "SettingsGroupPurpose",
+              "value": "Print"
+            },
+            {
+              "@name": "SpindleEncoderDataCapture",
+              "value": "Disabled"
+            },
+            {
+              "@name": "SpindlePIDControlEnable",
+              "value": "Enabled"
+            },
+            {
+              "@name": "SpindlePIDControlFixedInterval",
+              "value": "10"
+            },
+            {
+              "@name": "SpindlePIDControlKiEmptyRoll",
+              "value": "10"
+            },
+            {
+              "@name": "SpindlePIDControlKiFullRoll",
+              "value": "10"
+            },
+            {
+              "@name": "SpindlePIDControlKiInterval",
+              "value": "5"
+            },
+            {
+              "@name": "SpindlePIDControlKiLimit",
+              "value": "3000"
+            },
+            {
+              "@name": "SpindlePIDControlKpEmptyRoll",
+              "value": "1"
+            },
+            {
+              "@name": "SpindlePIDControlKpFullRoll",
+              "value": "1"
+            },
+            {
+              "@name": "Tier2EDCBlackPreheatColumnDecay",
+              "value": "0.0007"
+            },
+            {
+              "@name": "Tier2EDCBlackPreheatStartRatio",
+              "value": "0.141"
+            },
+            {
+              "@name": "Tier2EDCCyanPreheatColumnDecay",
+              "value": "0.0007"
+            },
+            {
+              "@name": "Tier2EDCCyanPreheatStartRatio",
+              "value": "0.141"
+            },
+            {
+              "@name": "Tier2EDCLUTBlack",
+              "value": "246"
+            },
+            {
+              "@name": "Tier2EDCLUTCyan",
+              "value": "216"
+            },
+            {
+              "@name": "Tier2EDCLUTMagenta",
+              "value": "218"
+            },
+            {
+              "@name": "Tier2EDCLUTYellow",
+              "value": "223"
+            },
+            {
+              "@name": "Tier2EDCMagentaPreheatColumnDecay",
+              "value": "0.0007"
+            },
+            {
+              "@name": "Tier2EDCMagentaPreheatStartRatio",
+              "value": "0.141"
+            },
+            {
+              "@name": "Tier2EDCTcomp",
+              "value": "7500000"
+            },
+            {
+              "@name": "Tier2EDCVcomp",
+              "value": "2000000"
+            },
+            {
+              "@name": "Tier2EDCYellowPreheatColumnDecay",
+              "value": "0.0007"
+            },
+            {
+              "@name": "Tier2EDCYellowPreheatStartRatio",
+              "value": "0.141"
+            },
+            {
+              "@name": "TimeoutRewindSupply",
+              "value": "0"
+            },
+            {
+              "@name": "UnWindSlopeConstant",
+              "value": "1.5"
+            },
+            {
+              "@name": "UnWindYInterceptFilmSupply",
+              "value": "6.7"
+            },
+            {
+              "@name": "UnWindYInterceptFilmSupplyReverse",
+              "value": "6.7"
+            },
+            {
+              "@name": "UnWindYInterceptFilmTakeup",
+              "value": "6.7"
+            },
+            {
+              "@name": "UnWindYInterceptFilmTakeupReverse",
+              "value": "6.7"
+            },
+            {
+              "@name": "UnWindYInterceptRibbonSupply",
+              "value": "6.7"
+            },
+            {
+              "@name": "UnWindYInterceptRibbonSupplyReverse",
+              "value": "6.7"
+            },
+            {
+              "@name": "UnWindYInterceptRibbonTakeup",
+              "value": "6.7"
+            },
+            {
+              "@name": "UnWindYInterceptRibbonTakeupReverse",
+              "value": "6.7"
+            },
+            {
+              "@name": "V2EDCBlackPreheatColumnDecay",
+              "value": "0.0011"
+            },
+            {
+              "@name": "V2EDCBlackPreheatStartRatio",
+              "value": "0.16"
+            },
+            {
+              "@name": "V2EDCCyanPreheatColumnDecay",
+              "value": "0.00115"
+            },
+            {
+              "@name": "V2EDCCyanPreheatStartRatio",
+              "value": "0.17"
+            },
+            {
+              "@name": "V2EDCHeatSealPreheatColumnDecay",
+              "value": "0.001105"
+            },
+            {
+              "@name": "V2EDCHeatSealPreheatStartRatio",
+              "value": "0.141"
+            },
+            {
+              "@name": "V2EDCLUTBlack",
+              "value": "240"
+            },
+            {
+              "@name": "V2EDCLUTCyan",
+              "value": "236"
+            },
+            {
+              "@name": "V2EDCLUTFluorescent",
+              "value": "245"
+            },
+            {
+              "@name": "V2EDCLUTHeatSeal",
+              "value": "130"
+            },
+            {
+              "@name": "V2EDCLUTMagenta",
+              "value": "240"
+            },
+            {
+              "@name": "V2EDCLUTPeelOff",
+              "value": "120"
+            },
+            {
+              "@name": "V2EDCLUTYellow",
+              "value": "238"
+            },
+            {
+              "@name": "V2EDCMagentaPreheatColumnDecay",
+              "value": "0.00095"
+            },
+            {
+              "@name": "V2EDCMagentaPreheatStartRatio",
+              "value": "0.185"
+            },
+            {
+              "@name": "V2EDCPeelOffPreheatColumnDecay",
+              "value": "0.00145"
+            },
+            {
+              "@name": "V2EDCPeelOffPreheatStartRatio",
+              "value": "0.115"
+            },
+            {
+              "@name": "V2EDCTcomp",
+              "value": "6000000"
+            },
+            {
+              "@name": "V2EDCTcompHeatSeal",
+              "value": "8000000"
+            },
+            {
+              "@name": "V2EDCTcompPeeloff",
+              "value": "15000000"
+            },
+            {
+              "@name": "V2EDCYellowPreheatColumnDecay",
+              "value": "0.00145"
+            },
+            {
+              "@name": "V2EDCYellowPreheatStartRatio",
+              "value": "0.136"
+            },
+            {
+              "@name": "V2ExtraLinesColorValueHeatSeal",
+              "value": "12"
+            },
+            {
+              "@name": "V2ExtraLinesHeadTempThresholdHeatSeal",
+              "value": "27"
+            },
+            {
+              "@name": "V2ExtraLinesShadeValuePeeloff",
+              "value": "75"
+            },
+            {
+              "@name": "V2ExtraLinesSizeHeatSeal",
+              "value": "2"
+            },
+            {
+              "@name": "V2FanTempOnPeeloff",
+              "value": "30"
+            },
+            {
+              "@name": "V2FilmPreregisterTimeStopOnIndexMark",
+              "value": "15"
+            },
+            {
+              "@name": "V2FilmSupplyPrintTension",
+              "value": "6"
+            },
+            {
+              "@name": "V2FilmSupplyPrintTensionBanding",
+              "value": "3"
+            },
+            {
+              "@name": "V2FilmSupplyPrintTensionPeeloff",
+              "value": "6"
+            },
+            {
+              "@name": "V2FilmTakeupPrintTension",
+              "value": "10"
+            },
+            {
+              "@name": "V2FilmTakeupPrintTensionBanding",
+              "value": "12"
+            },
+            {
+              "@name": "V2FilmTakeupPrintTensionPeeloff",
+              "value": "10"
+            },
+            {
+              "@name": "V2FilmWarmupFilmSpeedPeeloff",
+              "value": "15"
+            },
+            {
+              "@name": "V2FilmWarmupHeaterDropTimePeeloff",
+              "value": "200"
+            },
+            {
+              "@name": "V2FilmWarmupNumberPassesPeeloff",
+              "value": "2"
+            },
+            {
+              "@name": "V2FilmWarmupTemperatureSlopePeeloff",
+              "value": "10"
+            },
+            {
+              "@name": "V2HeadPowerBlack",
+              "value": "128"
+            },
+            {
+              "@name": "V2HeadPowerBlackObscure",
+              "value": "120"
+            },
+            {
+              "@name": "V2HeadPowerCyan",
+              "value": "126"
+            },
+            {
+              "@name": "V2HeadPowerHeatSeal",
+              "value": "105"
+            },
+            {
+              "@name": "V2HeadPowerMagenta",
+              "value": "127"
+            },
+            {
+              "@name": "V2HeadPowerMonochrome",
+              "value": "128"
+            },
+            {
+              "@name": "V2HeadPowerPeelOff",
+              "value": "85"
+            },
+            {
+              "@name": "V2HeadPowerYellow",
+              "value": "129"
+            },
+            {
+              "@name": "V2PrintSpeedPeeloff",
+              "value": "0"
+            },
+            {
+              "@name": "V2PrintStripCapstanLiftOffset",
+              "value": "20"
+            },
+            {
+              "@name": "V2PrintStripCapstanLiftOffsetFinancial",
+              "value": "15"
+            },
+            {
+              "@name": "V2PrintStripCapstanLiftOffsetFinancialPeelOff",
+              "value": "15"
+            },
+            {
+              "@name": "V2PrintStripCapstanLiftOffsetHeatSeal",
+              "value": "15"
+            },
+            {
+              "@name": "V2PrintStripDistance",
+              "value": "35"
+            },
+            {
+              "@name": "V2PrintStripDistanceFinancial",
+              "value": "30"
+            },
+            {
+              "@name": "V2RibbonPanelRegistrationOffset",
+              "value": "0.5"
+            },
+            {
+              "@name": "V2RibbonPanelRegistrationOffsetClear",
+              "value": "0.5"
+            },
+            {
+              "@name": "V2RibbonPanelRegistrationOffsetClearStopOnIndexMarkDelta",
+              "value": "0"
+            },
+            {
+              "@name": "V2RibbonPanelRegistrationOffsetStopOnIndexMarkDelta",
+              "value": "0"
+            },
+            {
+              "@name": "V2RibbonRegisterTension",
+              "value": "1"
+            },
+            {
+              "@name": "V2RibbonRegisterTensionCyan",
+              "value": "1"
+            },
+            {
+              "@name": "V2RibbonRegisterTensionCyanHeatSeal",
+              "value": "12"
+            },
+            {
+              "@name": "V2RibbonRegisterTensionHeatSeal",
+              "value": "1"
+            },
+            {
+              "@name": "V2RibbonSupplyPrintTension",
+              "value": "1"
+            },
+            {
+              "@name": "V2RibbonSupplyPrintTensionBanding",
+              "value": "1"
+            },
+            {
+              "@name": "V2RibbonSupplyPrintTensionPeelOff",
+              "value": "1"
+            },
+            {
+              "@name": "V2RibbonTakeupPrintTension",
+              "value": "12"
+            },
+            {
+              "@name": "V2RibbonTakeupPrintTensionBanding",
+              "value": "8"
+            },
+            {
+              "@name": "V2RibbonTakeupPrintTensionFinalHeatSeal",
+              "value": "1"
+            },
+            {
+              "@name": "V2RibbonTakeupPrintTensionFinalPeelOff",
+              "value": "1"
+            },
+            {
+              "@name": "V2RibbonTakeupPrintTensionHeatSeal",
+              "value": "12"
+            },
+            {
+              "@name": "V2RibbonTakeupPrintTensionPeelOff",
+              "value": "16"
+            },
+            {
+              "@name": "V2RibbonTakeupPrintTensionRampStartHeatSeal",
+              "value": "10"
+            },
+            {
+              "@name": "V2RibbonTakeupPrintTensionRampStartPeelOff",
+              "value": "10"
+            },
+            {
+              "@name": "V2TrailingEdgeColumnsHeatSeal",
+              "value": "20"
+            },
+            {
+              "@name": "V2TrailingEdgePixelValueHeatSeal",
+              "value": "8"
+            },
+            {
+              "@name": "WindSlopeConstant",
+              "value": "7.5"
+            },
+            {
+              "@name": "WindYInterceptFilmSupply",
+              "value": "8.2"
+            },
+            {
+              "@name": "WindYInterceptFilmSupplyReverse",
+              "value": "8.2"
+            },
+            {
+              "@name": "WindYInterceptFilmTakeup",
+              "value": "8.2"
+            },
+            {
+              "@name": "WindYInterceptFilmTakeupReverse",
+              "value": "8.2"
+            },
+            {
+              "@name": "WindYInterceptFilmTakeupReverseRetransfer",
+              "value": "0"
+            },
+            {
+              "@name": "WindYInterceptRibbonSupply",
+              "value": "8.2"
+            },
+            {
+              "@name": "WindYInterceptRibbonSupplyReverse",
+              "value": "8.2"
+            },
+            {
+              "@name": "WindYInterceptRibbonTakeup",
+              "value": "8.2"
+            },
+            {
+              "@name": "WindYInterceptRibbonTakeupReverse",
+              "value": "8.2"
+            }
+          ]
+        },
+        {
+          "@name": "ProductSupport",
+          "element": [
+            {
+              "@name": "SupplyOrderUrl",
+              "value": "https://www.entrust.com/sigma/partner-directory/printer-dashboard/supplies"
+            },
+            {
+              "@name": "SupportContactUrl",
+              "value": "https://www.entrust.com/sigma/contact-support/printer-dashboard"
+            }
+          ]
+        },
+        {
+          "@name": "Retransfer",
+          "element": [
+            {
+              "@name": "BacksideCoolingDelay",
+              "value": "0"
+            },
+            {
+              "@name": "BubbleLength",
+              "value": "3"
+            },
+            {
+              "@name": "BubbleLength3Phase",
+              "value": "7"
+            },
+            {
+              "@name": "BubbleLengthVersion3",
+              "value": "7"
+            },
+            {
+              "@name": "CardFilmLength",
+              "value": "89"
+            },
+            {
+              "@name": "CardFilmLength3Phase",
+              "value": "89"
+            },
+            {
+              "@name": "CardFilmLengthVersion3",
+              "value": "87.44"
+            },
+            {
+              "@name": "CardStripLength",
+              "value": "22"
+            },
+            {
+              "@name": "CardStripLength3Phase",
+              "value": "22"
+            },
+            {
+              "@name": "CardStripLengthVersion3",
+              "value": "22"
+            },
+            {
+              "@name": "DirectPeelBubbleLength",
+              "value": "3"
+            },
+            {
+              "@name": "DirectPeelCardLengthAdd",
+              "value": "1"
+            },
+            {
+              "@name": "DirectPeelCardLengthAdd3Phase",
+              "value": "-0.5"
+            },
+            {
+              "@name": "DirectPeelChipRecessSpeed",
+              "value": "12"
+            },
+            {
+              "@name": "DirectPeelInitialDistance",
+              "value": "19"
+            },
+            {
+              "@name": "DirectPeelInitialTension",
+              "value": "2"
+            },
+            {
+              "@name": "DirectPeelOverride",
+              "value": "Disabled"
+            },
+            {
+              "@name": "DirectPeelTakeupTension",
+              "value": "15"
+            },
+            {
+              "@name": "DustRewindSlewNominalSlope",
+              "value": "0.17"
+            },
+            {
+              "@name": "DustRewindSlewNominalTension",
+              "value": "7"
+            },
+            {
+              "@name": "EmbosserHandoffCoolingDelay",
+              "value": "0"
+            },
+            {
+              "@name": "FilmBackupSpeed",
+              "value": "63.5"
+            },
+            {
+              "@name": "FilmRetransferIndexSensorPWM",
+              "value": "101"
+            },
+            {
+              "@name": "FilmSlewSpeed",
+              "value": "175"
+            },
+            {
+              "@name": "FilmSlewTension",
+              "value": "3"
+            },
+            {
+              "@name": "FilmSlewTensionNominalSlope",
+              "value": "0"
+            },
+            {
+              "@name": "FilmSupplyRetensionSpeedAfterStripping",
+              "value": "2"
+            },
+            {
+              "@name": "FilmSupplyRetensionTensionAfterStripping",
+              "value": "4"
+            },
+            {
+              "@name": "FilmSupplyRetransferRegisterTension",
+              "value": "2"
+            },
+            {
+              "@name": "FilmSupplyRetransferTension",
+              "value": "2"
+            },
+            {
+              "@name": "FilmSupplyRetransferTension3Phase",
+              "value": "2"
+            },
+            {
+              "@name": "FilmSupplyRetransferTensionVersion3",
+              "value": "2"
+            },
+            {
+              "@name": "FilmSupplyStripTension",
+              "value": "0"
+            },
+            {
+              "@name": "FilmSupplyStripTension3Phase",
+              "value": "0"
+            },
+            {
+              "@name": "FilmSupplyStripTensionVersion3",
+              "value": "0"
+            },
+            {
+              "@name": "FilmTakeupRetensionSpeedAfterStripping",
+              "value": "100"
+            },
+            {
+              "@name": "FilmTakeupRetensionTensionAfterStripping",
+              "value": "18"
+            },
+            {
+              "@name": "FilmTakeupRetransferInitialTension",
+              "value": "6"
+            },
+            {
+              "@name": "FilmTakeupRetransferInitialTension3Phase",
+              "value": "6"
+            },
+            {
+              "@name": "FilmTakeupRetransferInitialTensionVersion3",
+              "value": "6"
+            },
+            {
+              "@name": "FilmTakeupRetransferRegisterTension",
+              "value": "8"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioBubble3Phase",
+              "value": "0.1"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioBubbleVersion3",
+              "value": "0.1"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioChangeOffset",
+              "value": "83.75"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioChangeOffsetRetransfer23Phase",
+              "value": "25"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioChangeOffsetRetransfer2Version3",
+              "value": "25"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioChangeOffsetRetransfer33Phase",
+              "value": "35"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioChangeOffsetRetransfer3Version3",
+              "value": "28"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioChangeOffsetStrip3Phase",
+              "value": "83.75"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioChangeOffsetStripVersion3",
+              "value": "83.75"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioRetransfer",
+              "value": "1.07"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioRetransfer13Phase",
+              "value": "1"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioRetransfer1Version3",
+              "value": "1"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioRetransfer23Phase",
+              "value": "1.3"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioRetransfer2Version3",
+              "value": "1.6"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioRetransfer33Phase",
+              "value": "1.04"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioRetransfer3Version3",
+              "value": "1"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioRetransferGen1Mechanism",
+              "value": "1.1"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioRetransferGen1Mechanism3Phase",
+              "value": "1.1"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioRetransferGen1MechanismVersion3",
+              "value": "1.1"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioStrip",
+              "value": "1.2"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioStrip3Phase",
+              "value": "1.1"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioStripGen1Mechanism",
+              "value": "1.2"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioStripGen1Mechanism3Phase",
+              "value": "1.2"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioStripGen1MechanismVersion3",
+              "value": "1.2"
+            },
+            {
+              "@name": "FilmToCardSpeedRatioStripVersion3",
+              "value": "1.1"
+            },
+            {
+              "@name": "FilmToCardTensionBubble3Phase",
+              "value": "-5"
+            },
+            {
+              "@name": "FilmToCardTensionBubbleVersion3",
+              "value": "-5"
+            },
+            {
+              "@name": "FilmToCardTensionRetransfer13Phase",
+              "value": "5"
+            },
+            {
+              "@name": "FilmToCardTensionRetransfer1Version3",
+              "value": "5"
+            },
+            {
+              "@name": "FilmToCardTensionRetransfer23Phase",
+              "value": "1.4"
+            },
+            {
+              "@name": "FilmToCardTensionRetransfer2Version3",
+              "value": "0"
+            },
+            {
+              "@name": "FilmToCardTensionRetransfer33Phase",
+              "value": "1.4"
+            },
+            {
+              "@name": "FilmToCardTensionStrip3Phase",
+              "value": "1.4"
+            },
+            {
+              "@name": "FilmWindupIndexCount",
+              "value": "4"
+            },
+            {
+              "@name": "FilmWindupSpeed",
+              "value": "63.5"
+            },
+            {
+              "@name": "FilmWindupTension",
+              "value": "2"
+            },
+            {
+              "@name": "FlashControlAcceptanceRange",
+              "value": "0.5"
+            },
+            {
+              "@name": "FlashControlActualLengthTarget",
+              "value": "93"
+            },
+            {
+              "@name": "FlashControlEquationExponentConstant",
+              "value": "0.04"
+            },
+            {
+              "@name": "FlashControlEquationLargeRollTensionTarget",
+              "value": "4"
+            },
+            {
+              "@name": "FlashControlEquationSmallRollTensionTarget",
+              "value": "10"
+            },
+            {
+              "@name": "FlashControlInputVariableSelectR1",
+              "value": "UseTensionEquation"
+            },
+            {
+              "@name": "FlashControlInputVariableSelectR2Strip",
+              "value": "None"
+            },
+            {
+              "@name": "FlashControlKp1",
+              "value": "1"
+            },
+            {
+              "@name": "FlashControlKp2",
+              "value": "0.1"
+            },
+            {
+              "@name": "FlashControlOutputVariableSelectR1",
+              "value": "Tension"
+            },
+            {
+              "@name": "FlashControlOutputVariableSelectR2Strip",
+              "value": "Tension"
+            },
+            {
+              "@name": "FlashControlPeakLengthTarget",
+              "value": "3"
+            },
+            {
+              "@name": "FlashControlTargetLengthTarget",
+              "value": "97"
+            },
+            {
+              "@name": "HeaterDropPWM",
+              "value": "90"
+            },
+            {
+              "@name": "HeaterLiftPWM",
+              "value": "100"
+            },
+            {
+              "@name": "HorizontalCardParkOffset",
+              "value": "20"
+            },
+            {
+              "@name": "LaminatorHandoffCoolingDelay",
+              "value": "0"
+            },
+            {
+              "@name": "MotionAccelFF",
+              "value": "0"
+            },
+            {
+              "@name": "MotionAccelFF3Phase",
+              "value": "0"
+            },
+            {
+              "@name": "MotionAccelFFVersion3",
+              "value": "0"
+            },
+            {
+              "@name": "MotionControlIntervalsPerSecond3Phase",
+              "value": "10"
+            },
+            {
+              "@name": "MotionControlIntervalsPerSecondVersion3",
+              "value": "10"
+            },
+            {
+              "@name": "MotionKd",
+              "value": "0"
+            },
+            {
+              "@name": "MotionKd3Phase",
+              "value": "0"
+            },
+            {
+              "@name": "MotionKdVersion3",
+              "value": "0"
+            },
+            {
+              "@name": "MotionKi",
+              "value": "20"
+            },
+            {
+              "@name": "MotionKi3Phase",
+              "value": "4"
+            },
+            {
+              "@name": "MotionKi3PhaseR2Strip",
+              "value": "6"
+            },
+            {
+              "@name": "MotionKiInterval3Phase",
+              "value": "9"
+            },
+            {
+              "@name": "MotionKiIntervalVersion3",
+              "value": "9"
+            },
+            {
+              "@name": "MotionKiLimit3Phase",
+              "value": "3000"
+            },
+            {
+              "@name": "MotionKiLimitVersion3",
+              "value": "3000"
+            },
+            {
+              "@name": "MotionKiVersion3",
+              "value": "4"
+            },
+            {
+              "@name": "MotionKiVersion3R2",
+              "value": "1"
+            },
+            {
+              "@name": "MotionKiVersion3R3",
+              "value": "1"
+            },
+            {
+              "@name": "MotionKiVersion3Strip",
+              "value": "1"
+            },
+            {
+              "@name": "MotionKp",
+              "value": "140"
+            },
+            {
+              "@name": "MotionKp3Phase",
+              "value": "5"
+            },
+            {
+              "@name": "MotionKp3PhaseR2Strip",
+              "value": "7"
+            },
+            {
+              "@name": "MotionKpVersion3",
+              "value": "5"
+            },
+            {
+              "@name": "MotionKpVersion3R2",
+              "value": "1"
+            },
+            {
+              "@name": "MotionKpVersion3R3",
+              "value": "1"
+            },
+            {
+              "@name": "MotionKpVersion3Strip",
+              "value": "1"
+            },
+            {
+              "@name": "PIDStripTension",
+              "value": "0.3"
+            },
+            {
+              "@name": "RetransferCapstanDistanceCorrection",
+              "value": "-0.82"
+            },
+            {
+              "@name": "RetransferCapstanDistanceCorrectionDirectPeel",
+              "value": "-0.82"
+            },
+            {
+              "@name": "RetransferCardRegOffset",
+              "value": "2"
+            },
+            {
+              "@name": "RetransferVersion",
+              "value": "Version3"
+            },
+            {
+              "@name": "SecondRetransferCoolingDelay",
+              "value": "20"
+            },
+            {
+              "@name": "SignaturePanelEndOverride",
+              "value": "0"
+            },
+            {
+              "@name": "StartBubble",
+              "value": "16"
+            },
+            {
+              "@name": "StartBubble3Phase",
+              "value": "16"
+            },
+            {
+              "@name": "StartBubbleVersion3",
+              "value": "16"
+            },
+            {
+              "@name": "StepCountTargetCalibrated",
+              "value": "True"
+            },
+            {
+              "@name": "StepCountTargetDifference",
+              "value": "6"
+            },
+            {
+              "@name": "StepCountTargetSlope",
+              "value": "-0.23"
+            },
+            {
+              "@name": "SupplyStripLength",
+              "value": "22"
+            },
+            {
+              "@name": "SupplyStripLength3Phase",
+              "value": "22"
+            },
+            {
+              "@name": "SupplyStripLengthVersion3",
+              "value": "22"
+            },
+            {
+              "@name": "V2BubbleLengthVersion3",
+              "value": "7"
+            },
+            {
+              "@name": "V2CapstanSpeedRatioChangeOffsetVersion3",
+              "value": "92"
+            },
+            {
+              "@name": "V2CapstanStripSpeedRatioVersion3",
+              "value": "0.9"
+            },
+            {
+              "@name": "V2CardFilmLengthVersion3",
+              "value": "87.42"
+            },
+            {
+              "@name": "V2CardStripLengthVersion3",
+              "value": "22"
+            },
+            {
+              "@name": "V2FilmSupplyRetransferTensionVersion3",
+              "value": "2"
+            },
+            {
+              "@name": "V2FilmSupplyStripTensionVersion3",
+              "value": "0"
+            },
+            {
+              "@name": "V2FilmTakeupRetransferInitialTensionVersion3",
+              "value": "6"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioBubbleVersion3",
+              "value": "0.1"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioChangeOffsetRetransfer2Version3",
+              "value": "23.5"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioChangeOffsetRetransfer3Version3",
+              "value": "45"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioChangeOffsetRetransfer3Version3Chip",
+              "value": "30"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioChangeOffsetStripVersion3",
+              "value": "83.75"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioRetransfer",
+              "value": "1.1"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioRetransfer1Version3",
+              "value": "1"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioRetransfer2Version3",
+              "value": "1.13"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioRetransfer2Version3Chip",
+              "value": "1.8"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioRetransfer3Version3",
+              "value": "0.96"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioRetransferGen1MechanismVersion3",
+              "value": "1.1"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioStrip",
+              "value": "1.2"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioStripGen1MechanismVersion3",
+              "value": "1.2"
+            },
+            {
+              "@name": "V2FilmToCardSpeedRatioStripVersion3",
+              "value": "1.1"
+            },
+            {
+              "@name": "V2FilmToCardTensionBubbleVersion3",
+              "value": "-5"
+            },
+            {
+              "@name": "V2FilmToCardTensionRetransfer1Version3",
+              "value": "5"
+            },
+            {
+              "@name": "V2FilmToCardTensionRetransfer2Version3",
+              "value": "0"
+            },
+            {
+              "@name": "V2FrontSideLeadingEdgeWarmingDelay",
+              "value": "2"
+            },
+            {
+              "@name": "V2FrontSideTrailingEdgeWarmingDelay",
+              "value": "2"
+            },
+            {
+              "@name": "V2MotionAccelFFVersion3",
+              "value": "0"
+            },
+            {
+              "@name": "V2MotionControlIntervalsPerSecondVersion3",
+              "value": "10"
+            },
+            {
+              "@name": "V2MotionKdVersion3",
+              "value": "0"
+            },
+            {
+              "@name": "V2MotionKiIntervalVersion3",
+              "value": "9"
+            },
+            {
+              "@name": "V2MotionKiLimitVersion3",
+              "value": "3000"
+            },
+            {
+              "@name": "V2MotionKiVersion3",
+              "value": "0"
+            },
+            {
+              "@name": "V2MotionKiVersion3R2",
+              "value": "1"
+            },
+            {
+              "@name": "V2MotionKiVersion3R3",
+              "value": "2"
+            },
+            {
+              "@name": "V2MotionKiVersion3Strip",
+              "value": "3"
+            },
+            {
+              "@name": "V2MotionKpVersion3",
+              "value": "3"
+            },
+            {
+              "@name": "V2MotionKpVersion3R2",
+              "value": "6"
+            },
+            {
+              "@name": "V2MotionKpVersion3R3",
+              "value": "16"
+            },
+            {
+              "@name": "V2MotionKpVersion3Strip",
+              "value": "13"
+            },
+            {
+              "@name": "V2PIDStripTension",
+              "value": "0.3"
+            },
+            {
+              "@name": "V2SecondRetransferCoolingDelay",
+              "value": "20"
+            },
+            {
+              "@name": "V2SelectChipFlashSettings",
+              "value": "Auto"
+            },
+            {
+              "@name": "V2StartBubbleVersion3",
+              "value": "16"
+            },
+            {
+              "@name": "V2SupplyStripLengthVersion3",
+              "value": "22"
+            }
+          ]
+        },
+        {
+          "@name": "SmartCard",
+          "element": [
+            {
+              "@name": "SmartContactEngageOffset",
+              "value": "140"
+            },
+            {
+              "@name": "SmartContactHomeOffset",
+              "value": "60"
+            },
+            {
+              "@name": "SmartInMMPastSwitch",
+              "value": "1.5"
+            },
+            {
+              "@name": "SmartInOffset",
+              "value": "0.5"
+            }
+          ]
+        },
+        {
+          "@name": "Transport",
+          "element": [
+            {
+              "@name": "EjectFrontRetries",
+              "value": "3"
+            },
+            {
+              "@name": "EjectFrontRetryDistance",
+              "value": "1.5"
+            },
+            {
+              "@name": "EjectTries",
+              "value": "3"
+            },
+            {
+              "@name": "FinalEjectSpeed",
+              "value": "Normal"
+            },
+            {
+              "@name": "TransMedSpeedMM",
+              "value": "67.733"
+            },
+            {
+              "@name": "TransportRegisterSpeedMM",
+              "value": "42.333"
+            },
+            {
+              "@name": "TransportSpeedMM",
+              "value": "125"
+            }
+          ]
+        },
+        {
+          "@name": "VertTransport",
+          "element": [
+            {
+              "@name": "VertTransMedSpeed",
+              "value": "67.733"
+            },
+            {
+              "@name": "VertTransportSpeed",
+              "value": "125"
+            }
+          ]
+        },
+        {
+          "@name": "VitalProductData",
+          "element": [
+            {
+              "@name": "AgencyModelName",
+              "value": "RX10"
+            },
+            {
+              "@name": "Manufacturer",
+              "value": "Entrust Datacard"
+            },
+            {
+              "@name": "ModelName",
+              "value": "CR825"
+            },
+            {
+              "@name": "ModelNamePrefix",
+              "value": "Artista"
+            },
+            {
+              "@name": "ModelNameWithEmbosser",
+              "value": "CE875"
+            },
+            {
+              "@name": "ModelNameWithLaser",
+              "value": "CL900"
+            },
+            {
+              "@name": "PartNumber",
+              "value": "506291-271"
+            },
+            {
+              "@name": "PlatformID",
+              "value": "CR825"
+            },
+            {
+              "@name": "PrinterName",
+              "value": "PM21358"
+            },
+            {
+              "@name": "SerialNumber",
+              "value": "PM21358"
+            },
+            {
+              "@name": "SettingsVersion",
+              "value": "68"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
