@@ -4,6 +4,7 @@ using ReadJSON.Domain;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 
 namespace ReadJSON
@@ -14,7 +15,7 @@ namespace ReadJSON
         {
             var assembly = Assembly.GetExecutingAssembly();
 
-            var json_message = GetJson($"ConsoleApp1.Resource.macaddress.json", assembly);
+            var json_message = GetJson($"ReadJSON.Resource.macaddress.json", assembly);
 
             JSONCollection collection = JsonConvert.DeserializeObject<JSONCollection>(json_message);
 
@@ -35,6 +36,12 @@ namespace ReadJSON
             {
                 Console.WriteLine($"EthMacAddress: {value}");
             }
+
+            string productMac = "00:02:4E:26:02:DB";
+
+            bool found = macAddresses.Where(x => x.Equals(productMac)).Count() == 1;
+
+            Console.WriteLine($"Result: {found}");
         }
 
         public static string GetJson(string resourceName, Assembly assembly)
